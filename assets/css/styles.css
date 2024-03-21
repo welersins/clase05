@@ -2,7 +2,7 @@
 
 
 li{
-    font-size: 10px;
+    font-size: 25px;
 }
 
 header h1{
@@ -17,4 +17,25 @@ header h1{
     padding-top: .8rem;
     padding-bottom: .8rem;
     margin-top: 1rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: rgb(75, 75, 175);
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: .3rem;
+    color: white;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+nav ul li {
+
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
