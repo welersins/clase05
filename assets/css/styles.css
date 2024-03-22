@@ -17,6 +17,9 @@ header h1{
     padding-top: .8rem;
     padding-bottom: .8rem;
     margin-top: 1rem;
+    background-image:url(../img/galaxia.jpg);
+    padding: 3rem 0;
+
 }
 
 nav ul{
